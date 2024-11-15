@@ -1,23 +1,23 @@
  const sliderData = [
   {
     id: 1,
-    description: "Leaving room"
+    description: "Basilique Saint Pierre - Vatican"
   },
   {
     id: 2,
-    description: "Kitchen"
+    description: "David de Michelange - Florence"
   },
   {
     id: 3,
-    description: "Bedroom"
+    description: "Ponte Vecchio - Florence"
   },
   {
     id: 4,
-    description: "Bathroom"
+    description: "Basilique Saint Pierre - Rome"
   },
   {
     id: 5,
-    description: "Balcony"
+    description: "Panthéon - Rome"
   },
 ]
 export default sliderData;
