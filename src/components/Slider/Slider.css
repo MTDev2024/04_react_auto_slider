@@ -7,24 +7,31 @@
 }
 
 .slider {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     position: relative;
-    aspect-ratio: 3/2 ;
+    aspect-ratio: 3/2;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.8); /* Ombre plus marquée */
 }
+
+
+
 
 .image-info {
     position: absolute;
     z-index: 1;
-    right: 0;
-    color: #111;
-    background-color: #f1f1f1;
-    border-bottom: 1px solid #9f9f9f;
-    border-left: 1px solid #9f9f9f;
-    padding: 8px 12px;
+    bottom: 0;
+    left: 0; /* Aligne le texte à partir du bord gauche */
+    right: 0; /* Aligne le texte à partir du bord droit */
+    color: white;
+    background-color: transparent;
+    padding-bottom: 14px;
+    font-size: 20px;
     font-weight: 400;
-    
+    text-align: center; /* Centre le texte horizontalement */
+    box-sizing: border-box;
 }
+
 
 .slider-img {
     position: absolute;
@@ -37,9 +44,7 @@
     position: absolute;
     width: 48px;
     height: 48px;
-    border-radius: 50%;
     background-color: transparent;
-    border: 2px solid #d4d4d4;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;

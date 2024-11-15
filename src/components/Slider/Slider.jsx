@@ -24,7 +24,7 @@ export default function Slider() {
   }
   
   useEffect(() => {
-      const intervalID = setInterval(() => toggleImage(1), 2000)
+      const intervalID = setInterval(() => toggleImage(1), 4000)
 
       return () => clearInterval(intervalID)
   }, [] )
